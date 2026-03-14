@@ -6,24 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-<!--
-Button:
-    al click eseguirà un'azione in Java.
-    Importante per Java:
-    android:id="@+id/btnMostra"
-    Questo id verrà usato in Java con:
-    findViewBuild(R.id.btnMostra)
-
-    In Java si collegherà anche l'evento...
--->
-
-
-    <!--
-    ImageView:
-    -->
-    <!--
-EditText:
--->
 
     <Button
         android:id="@+id/btnMostra"
