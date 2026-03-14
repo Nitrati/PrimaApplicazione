@@ -3,6 +3,7 @@ package com.example.primaapplicazione;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -18,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     //dichiarazione degli oggetti utilizzati xml -> java
     Button btnMostra;
     ImageView ImgFotoScuola;
-    TextView txtMessaggio;
+    EditText txtMessaggio;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
+                //mostrare il messaggio con un Toast
                 Toast.makeText(MainActivity.this, messaggio, Toast.LENGTH_SHORT).show();
             }
         });
