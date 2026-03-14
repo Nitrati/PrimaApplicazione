@@ -18,36 +18,43 @@ Button:
 -->
 
 
+    <!--
+    ImageView:
+    -->
+    <!--
+EditText:
+-->
+
     <Button
         android:id="@+id/btnMostra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="228dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="72dp"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="160dp" />
-    <!--
-    ImageView:
-    -->
+        app:layout_constraintEnd_toEndOf="parent" />
+
     <ImageView
         android:id="@+id/ImgFotoScuola"
         android:layout_width="263dp"
         android:layout_height="184dp"
         android:layout_marginTop="48dp"
+        android:layout_marginEnd="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="54dp"
         tools:srcCompat="@drawable/images" />
-<!--
-EditText:
--->
+
     <EditText
         android:id="@+id/txtMessaggio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="252dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="80dp"
         android:ems="10"
         android:inputType="text"
         android:text="Scrivi un testo"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="333dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImgFotoScuola" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
